@@ -36,7 +36,7 @@ void Snek::reset()
 
 const sf::RectangleShape &Snek::getShape() const
 {
-    return shape.back();
+    return this->shape[0];
 }
 
 const sf::RectangleShape &Snek::getShapeBack() const
